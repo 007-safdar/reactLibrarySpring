@@ -1,0 +1,26 @@
+Java notes
+JDBC: technology by which java applications is communicating with database is ‘Java Database Connectivity.
+It has mainly two api packages namely as follows: java.sql package and javax.sql package.
+
+Spring Boot JPA is a Java specification for managing relational data in Java applications. It allows us to
+access and persist data between Java object/ class and relational database. JPA follows Object-Relation Mapping (ORM).
+It is a set of interfaces. It also provides a runtime EntityManager API for processing queries and transactions on
+ the objects against the database. It uses a platform-independent object-oriented query language JPQL (Java Persistent Query Language).
+
+JPA is simpler, cleaner, and less labor-intensive than JDBC, SQL, and hand-written mapping. JPA is suitable for non-performance oriented complex applications. The main advantage of JPA over JDBC is that, in JPA, data is represented by objects and classes while in JDBC data is represented by tables and records.
+It uses POJO to represent persistent data that simplifies database programming.
+
+
+Hibernate : How do i take data from tables ie database and put it in objects used in our app. Also if i have objects in java side and i need to put it into the database.
+
+Java persistance api: Its ORM tool. Object relational mapping it takes.
+Object Relational Mapping (ORM) is a technique used in creating a "bridge" between object-oriented programs and, in most cases, relational databases.
+
+Put another way, you can see the ORM as the layer that connects object oriented programming (OOP) to relational databases.
+JPA's implementation is Hibernate
+
+JPA has interface entitymanagerfactory provides object entitymanager provides method to crud.
+For this we need to extend abc repository extend crudrespository / jparepository interface
+To study: Core Java , Advanced Java concepts.
+
+
